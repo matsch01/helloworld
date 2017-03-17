@@ -6,7 +6,11 @@ func sayAThing() {
 	fmt.Println("say a thing")
 }
 
-func main() {
+func sayHello() {
 	fmt.Println("hello world")
+}
+
+func main() {
 	sayAThing()
+	sayHello()
 }
