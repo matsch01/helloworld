@@ -32,4 +32,5 @@ func main() {
 	sayAThing()
 	sayHello()
 	requestSomething()
+	fmt.Println("good bye")
 }
