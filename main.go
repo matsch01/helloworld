@@ -6,6 +6,10 @@ import (
 	"github.com/levigross/grequests"
 )
 
+func sayAnotherThing() {
+	fmt.Println("say another thing")
+}
+
 func requestSomething() {
 	resp, err := grequests.Get("http://httpbin.org/get", nil)
 	// You can modify the request by passing an optional RequestOptions struct
